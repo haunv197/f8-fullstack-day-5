@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: justify;
+  font-size: 14px;
+}
+
+.page-cv {
+  background-color: #a47673;
+}
+strong {
+  font-weight: bold;
+}
+i {
+  font-style: italic;
+}
+.page-cv .container {
+  max-width: 795px;
+  margin: 0 auto;
+}
+.page-cv .inner {
+  margin-top: 34px;
+  background-color: #fff;
+  padding: 40px 70px 5px 70px;
+}
+.header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+h1 {
+  font-size: 30px;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+.text-separation {
+  margin: 0 3px;
+}
+
+.heading-h2 {
+  font-weight: bold;
+  padding-bottom: 4px;
+  border-bottom: 2px solid;
+  margin-bottom: 15px;
+}
+
+.item-experience {
+  margin-bottom: 18px;
+}
+
+.item-experience:first-child .heading-h3 {
+  margin-top: 0;
+}
+
+.heading-h3 {
+  font-weight: bold;
+  display: flex;
+  margin-bottom: 18px;
+}
+.job-title {
+  margin-right: auto;
+}
+ul {
+  list-style: disc;
+  padding-left: 1rem;
+}
+
+ul li {
+  line-height: 20px;
+  margin-bottom: 4px;
+}
+
+/* form.html */
