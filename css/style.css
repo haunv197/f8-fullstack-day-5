@@ -100,6 +100,33 @@ h1 {
   margin-bottom: 4px;
 }
 
+/*  menu-page */
+.menu-page {
+  background-color: #cedeff;
+}
+
+.menu-page .header {
+  background-color: #3e5cca;
+}
+
+.menu-page .header ul {
+  display: flex;
+}
+
+.menu-page .header ul li a {
+  color: #fff;
+  padding: 25px 20px;
+  display: inline-flex;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.menu-page .header ul li a:hover,
+.menu-page .header ul li.active a {
+  background-color: #fff;
+  color: #000;
+}
+
 /* form.html */
 .page-form {
   background-color: #7ed8d6;
