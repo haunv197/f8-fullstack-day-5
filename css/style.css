@@ -8,6 +8,32 @@ body {
   font-size: 14px;
 }
 
+/* menu-home-page */
+.container {
+  max-width: 1200px;
+  padding: 0 16px;
+}
+.menu-home-page {
+  background-color: #1ed5b9;
+}
+.menu-home-page ul {
+  display: flex;
+}
+.menu-home-page ul li a {
+  background-color: #1ed5b9;
+  color: #fff;
+  padding: 12px 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.menu-home-page li a:hover {
+  background-color: #fff;
+  color: #1ed5b9;
+}
+
+/* page-cv */
 .page-cv {
   background-color: #a47673;
 }
@@ -64,12 +90,12 @@ h1 {
 .job-title {
   margin-right: auto;
 }
-ul {
+.page-cv ul {
   list-style: disc;
   padding-left: 1rem;
 }
 
-ul li {
+.page-cv ul li {
   line-height: 20px;
   margin-bottom: 4px;
 }
