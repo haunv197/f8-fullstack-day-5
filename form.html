@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Register</title>
+  </head>
+  <body class="page-form">
+    <div class="wrapper">
+      <div class="container">
+        <div class="inner">
+          <h1>Register</h1>
+          <form action="" autocomplete="off">
+            <div class="form-group-flex">
+              <div class="form-group">
+                <label for="display-name" class="form-label">
+                  Display Name</label
+                >
+                <input
+                  class="input-enter"
+                  id="display-name"
+                  type="text"
+                  spellcheck="false"
+                  placeholder="Tên hiển thị của bạn trên trang"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  class="input-enter"
+                  id="email"
+                  type="text"
+                  spellcheck="false"
+                  placeholder="Địa chỉ email dùng để đăng nhập"
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="phone-number" class="form-label">Phone Number</label>
+              <input
+                class="input-enter"
+                id="phone-number"
+                type="number"
+                spellcheck="false"
+                placeholder="Số điện thoại để liên hệ hoặc xác minh tài khoản"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="password" class="form-label">Password</label>
+              <input
+                class="input-enter"
+                id="password"
+                type="password"
+                placeholder="Mật khẩu bảo vệ tài khoản, nên đủ mạnh"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="confirm-password" class="form-label"
+                >Confirm Password</label
+              >
+              <input
+                class="input-enter"
+                id="confirm-password"
+                type="password"
+                placeholder="Nhập lại mật khẩu ở trên để xác nhận"
+              />
+            </div>
+
+            <div class="form-group-flex">
+              <div class="form-group form-group-gender">
+                <label class="form-label">Gender</label>
+                <div class="list-gender">
+                  <label>
+                    <input type="radio" name="gender" />
+                    <span>Male</span>
+                  </label>
+                  <label>
+                    <input type="radio" name="gender" />
+                    <span>Female</span>
+                  </label>
+                  <label>
+                    <input type="radio" name="gender" />
+                    <span>Other</span>
+                  </label>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="date-of-birth" class="form-label"
+                  >Date of Birth</label
+                >
+                <input
+                  class="input-enter"
+                  id="date-of-birth"
+                  type="date"
+                  placeholder="Ngày tháng năm sinh – định dạng tùy quốc gia (ví dụ: YYYY-MM-DD)"
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="address" class="form-label">Address</label>
+              <input
+                spellcheck="false"
+                class="input-enter"
+                id="address"
+                placeholder="Địa chỉ hiện tại (có thể đơn giản như tỉnh/thành phố)"
+              />
+            </div>
+
+            <div class="form-group-flex">
+              <div class="form-group">
+                <label
+                  for="profile-picture"
+                  class="form-label form-label-avatar"
+                  >Profile Picture (Avatar)</label
+                >
+                <label for="profile-picture" class="images-avatar">
+                  <img
+                    src="./img/images-avatar.png"
+                    alt="Avatar"
+                    class="images-avatar"
+                  />
+                </label>
+                <input
+                  hidden
+                  id="profile-picture"
+                  type="file"
+                  accept="image/*"
+                  placeholder="Ảnh đại diện của bạn – chọn file ảnh từ máy tính"
+                />
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Communication Preferences</label>
+                <label>
+                  <input type="checkbox" name="communication-preferences" />
+                  <span>Subscribe to Newsletter</span>
+                </label>
+                <label>
+                  <input type="checkbox" name="communication-preferences" />
+                  <span>Receive Promotional Email</span>
+                </label>
+                <label>
+                  <input type="checkbox" name="communication-preferences" />
+                  <span>Get Product Updates</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <input type="submit" value="Register" class="form-submit" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- Bấm vào label cũng focus vào input tương ứng -> OK
+
+Ẩn input chọn Avatar, thay vào đó hiển thị Avatar placeholder hình tròn, click vào placeholder cho phép chọn 1 ảnh 1 lần, 
+chỉ hiển thị các định dạng ảnh khi chọn file. -> OK
+
+Bỏ check chính tả tại các input nhập dạng text/email/phone… -> OK
+
+Bỏ tự động hoàn thành (Auto complete) cho form -> OK -->

@@ -17,9 +17,11 @@ strong {
 i {
   font-style: italic;
 }
+.container {
+  margin: 0 auto;
+}
 .page-cv .container {
   max-width: 795px;
-  margin: 0 auto;
 }
 .page-cv .inner {
   margin-top: 34px;
@@ -73,3 +75,81 @@ ul li {
 }
 
 /* form.html */
+.page-form {
+  background-color: #7ed8d6;
+}
+
+.page-form .container {
+  max-width: 700px;
+}
+
+.page-form .inner {
+  background-color: #32425b;
+  margin: 40px 0;
+  padding: 25px 35px;
+  color: #fff;
+}
+
+.page-form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group-flex {
+  display: flex;
+  gap: 15px;
+}
+.form-group {
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-group input {
+  border-radius: 6px;
+}
+
+.form-group .input-enter {
+  height: 35px;
+  background-color: transparent;
+  outline: none;
+  padding: 8px;
+  width: 100%;
+  border: 1px solid #938f8f;
+  color: #fff;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-group-gender .list-gender {
+  display: flex;
+  gap: 5px;
+}
+
+.form-label-avatar {
+  cursor: pointer;
+}
+
+.images-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.form-group .form-submit {
+  background-color: #1ed5b9;
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  border: 0;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
