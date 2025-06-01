@@ -53,6 +53,7 @@ i {
   margin-top: 34px;
   background-color: #fff;
   padding: 40px 70px 5px 70px;
+  box-shadow: 19px 55px 6px 15px rgb(0 0 0 / 15%);
 }
 .header {
   text-align: center;
